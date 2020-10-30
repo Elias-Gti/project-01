@@ -1,0 +1,150 @@
+.navbar {
+  background: #000; }
+  .navbar .nav-item {
+    padding-left: 1rem; }
+    .navbar .nav-item .nav-link {
+      text-transform: uppercase; }
+
+.carousel-item {
+  height: 700px; }
+
+.carousel-img-1 {
+  background: url(../img/two-bg.jpg);
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: url(../img/main.jpg) center;
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url(../img/tree-bg.jpg) center;
+  background-size: cover; }
+
+#homeid .fas {
+  font-size: 50px;
+  color: rgba(22, 4, 122, 0.918); }
+
+#homeid .fa1 {
+  font-size: 50px;
+  color: rgba(52, 2, 85, 0.918); }
+
+#homeid .fa2 {
+  font-size: 50px;
+  color: #740332; }
+
+#getstartid {
+  background: url(../img/my_pic.jpg) center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 300px; }
+  #getstartid .dark-overlay {
+    background: rgba(0, 0, 0, 0.664);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0; }
+
+#videosectionId {
+  background: url(../img/my_pic.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 300px; }
+  #videosectionId .fa {
+    font-size: 50px;
+    color: #be3329; }
+  #videosectionId .overlays {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.664);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0; }
+
+#copyId {
+  background: #000; }
+
+#AboutHomeId {
+  background: url(../img/main.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 320px; }
+  #AboutHomeId .projectHover {
+    background: rgba(0, 0, 0, 0.664);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0; }
+
+#colsection {
+  background: rgba(243, 239, 239, 0.637); }
+  #colsection .fa {
+    font-size: 50px; }
+
+#testimonialId .slick-prev:before {
+  color: #000; }
+
+#testimonialId .slick-next:before {
+  color: #000; }
+
+#servicesId {
+  background: url(../img/computer.jpg) center;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 350px; }
+  #servicesId .servicesHover {
+    background: rgba(0, 0, 0, 0.664);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+
+#questionId {
+  background: darkorange; }
+
+@media (max-width: 575.98px) {
+  .nav-item {
+    padding-left: 0 !important; }
+  .carousel h2 {
+    font-size: 3rem; }
+  .carousel p {
+    font-size: 1rem; }
+  #getstartid {
+    min-height: 350px; }
+    #getstartid h2 {
+      font-size: 2.5rem; }
+    #getstartid p {
+      font-size: 1rem; } }
+
+@media (min-width: 310px) and (max-width: 576px) {
+  #getstartid {
+    min-height: 650px; } }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .nav-item {
+    padding-left: 0 !important; }
+  #getstartid {
+    min-height: 450px; }
+    #getstartid h2 {
+      font-size: 2.5rem; }
+    #getstartid p {
+      font-size: 1rem; } }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #getstartid {
+    min-height: 450px; } }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #getstartid {
+    min-height: 350px; } }
